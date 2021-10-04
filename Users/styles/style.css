@@ -1,0 +1,87 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    height: 10vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:left;
+    background-color:darkgreen;
+    
+}
+nav{
+    text-align: left;
+    display:block;
+    margin: 10px auto;
+    
+
+}
+.nav-button{
+    color: white;
+    
+}
+.capture-form{
+    background-color: rgb(7, 5, 0);
+    color: white;
+    border: 1px solid darkblue;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+}
+div.control{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+div.control label{
+    flex-basis: 8rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+div.control input, .control select{
+    flex-basis: 20rem;
+    padding: 8px;
+}
+#btn-save{
+    padding: 1rem;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px auto;
+}
+.login-container .control{
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.hide{
+    display: none;
+}
+.btn-login{
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+.alert-error{
+    background-color: white;
+    border: 1px solid red;
+    color: rgb(172, 38, 38);
+    padding: 3px;
+}
